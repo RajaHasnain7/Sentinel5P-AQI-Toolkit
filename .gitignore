@@ -1,0 +1,23 @@
+﻿# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Distribution / Packaging
+.Python
+env/
+venv/
+ENV/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-generated files
+.DS_Store
+Thumbs.db
