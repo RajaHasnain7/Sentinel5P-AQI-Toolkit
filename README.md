@@ -51,7 +51,8 @@ The `--aoi_file_path` option allows you to specify a custom geographical area us
 The name of your area of interest will be automatically derived from the `.geojson` file name.
 
 ### Supported Pollutants
-The `pollutant` parameter corresponds to a Sentinel-5P product type.Detailed explanation of these pollutants is available in the [Sentinel-5P Documentation](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel5P.html)
+The `pollutant` parameter corresponds to a Sentinel-5P product type.Detailed explanation of these pollutants is available in the [Sentinel-5P Documentation](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel5P.html).
+
 TROPOMI Level 2 geophysical products supported by this toolkit are:
 
 | Product Type | Parameter Description                                       |
