@@ -1,0 +1,17 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Sentinel5P-AQI-Toolkit"
+authors:
+  - family-names: "Hasnain"
+    given-names: "Raja"
+date-released: 2025-01-22
+version: "1.0.0"
+repository-code: "https://github.com/your-username/Sentinel5P-AQI-Toolkit"
+license: "MIT"
+keywords:
+  - Sentinel-5P
+  - Air Quality Index
+  - Data Processing
+  - Remote Sensing
+  - Air Pollution
