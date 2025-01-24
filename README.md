@@ -9,7 +9,7 @@ The primary script for querying the Copernicus Catalogue, downloading, and proce
 ### Steps:
 
 1. **Upload all the files to Colab**:
-   - Upload the `Complete_S5P_code.ipynb` to Colab then upload the `init.py` and `utils.py` files in the content folder of colab.
+   - Upload the `Complete_S5P_code.ipynb` to Colab then upload the `init.py`,`harpconversion.py` and `utils.py` files in the content folder of colab.
    - insert all the necessary parameters (credentials e.t.c) in the `init.py` file.
 
 2. **Connect to Drive (Optional)**
