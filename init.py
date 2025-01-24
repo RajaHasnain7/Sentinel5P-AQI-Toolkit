@@ -12,17 +12,24 @@ from utils import (
 
 
 # ALL THE NECESSARY CREDENTIALS
-username="enter your username here"
-password="enter your password here"
+username="enter your Copernicus Data Space Ecosystem username here"
+password="enter your Copernicus Data Space Ecosystem password here"
 
 # ALL THE NECESSARY PARAMETERS
 
 # Export file paths
-L2_Files = L2_folder_path="/content/gdrive/MyDrive/Data_downloading/L2_Files"
-L3_Files = L3_folder_path="/content/gdrive/MyDrive/Data_downloading/L3_Files"
-Base_Merged_Files="/content/gdrive/MyDrive/Data_downloading/Merged files"
-Base_Final_Files="/content/gdrive/MyDrive/Data_downloading/Final files"
-Base_PBLH_T2M_Files="/content/gdrive/MyDrive/Data_downloading/PBLH and T2M"
+L2_Files = L2_folder_path="path to your base L2 folder"
+L3_Files = L3_folder_path="path to your base L3 folder"
+Base_Merged_Files="path to your base Merged files folder"
+Base_Final_Files="path to your base Final files folder"
+Base_PBLH_T2M_Files="path to your base PBLH and T2M"
+
+# Area of study
+aoi_file_path="path to your geojson file here e.g 'path/England.geojson'"
+
+# name of area of study
+aoi_name_to_display = os.path.basename(aoi_file_path) # name with extension
+aoi_name_to_display = os.path.splitext(aoi_name_to_display)[0] #remove extension
 
 # Timespan of downloads
 
@@ -55,11 +62,6 @@ pollutant = chosen_product_type
 # Data collection
 data_collection = "SENTINEL-5P"
 
-# Area of study
-aoi_file_path="path to your geojson file here e.g path/England.geojson"
-# name of area of study
-aoi_name_to_display = os.path.basename(aoi_file_path) # name with extension
-aoi_name_to_display = os.path.splitext(aoi_name_to_display)[0] #remove extension
 
 # Quality Assurance
 
