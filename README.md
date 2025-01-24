@@ -10,7 +10,7 @@ The primary script for querying the Copernicus Catalogue, downloading, and proce
 
 1. **Upload all the files to Colab**:
    - Upload the `Complete_S5P_code.ipynb` to Colab then upload the `init.py`,`harpconversion.py` and `utils.py` files in the content folder of colab.
-   - insert all the necessary parameters (credentials e.t.c) in the `init.py` file.
+   - Insert all the necessary parameters (credentials e.t.c) in the `init.py` file.
 
 2. **Connect to Drive (Optional)**
 
@@ -53,7 +53,7 @@ The `--aoi_file_path` option allows you to specify a custom geographical area us
 
 #### How to Create a `.geojson` File:
 1. Use [geojson.io](https://geojson.io) to generate a custom `.geojson` file for your area of interest.
-2. Save the file locally and provide its path in the `--aoi_file_path` parameter.
+2. Save the file locally (or in Google drive) and provide its path in the `--aoi_file_path` parameter.
 
 The name of your area of interest will be automatically derived from the `.geojson` file name.
 
