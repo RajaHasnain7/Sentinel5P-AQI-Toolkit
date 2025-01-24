@@ -7,17 +7,24 @@ A collection of Python scripts designed to automate the download and preprocessi
 The primary script for querying the Copernicus Catalogue, downloading, and processing data is `Complete_S5p_code.ipynb`. Google Colab is used as the execution environment with Google Drive as data storage, offering seamless data storage and processing capabilities.
 
 ### Steps:
-1. **Run the Import Cell**:
+
+1. **Upload all the files to Colab**:
+   - Upload the `Complete_S5P_code.ipynb` to Colab then upload the `init.py` and `utils.py` files in the content folder of colab.
+   - insert all the necessary parameters (credentials e.t.c) in the `init.py` file.
+
+2. **Connect to Drive (Optional)**
+
+3. **Run the Import Cell**:
    - This cell initializes the environment by:
      - Importing relevant libraries.
      - Loading necessary variables and credentials from `init.py`.
      - Importing utility functions from `utils.py`.
 
-2. **Query and Download Data**:
+4. **Query and Download Data**:
    - The script queries the Copernicus Data Space Ecosystem for Sentinel-5P data based on user-defined parameters.
    - The resulting file is a raw Level 2 (L2) netCDF file saved in the `L2_files` folder
 
-3. **Process Data**:
+5. **Process Data**:
    - The `harpconversion.py` file is used to convert raw Level 2 (L2) files to Level 3 (L3) files. 
    - The resulting file is a netCDF file saved in the `L3_files` folder, binned by time, latitude, and longitude. These files are aligned on a regular grid with a default resolution of 0.01 x 0.01 arc degree.
    - This L3 file can further be converted into a `.csv` file for easier analysis.
